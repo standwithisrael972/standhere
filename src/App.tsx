@@ -36,11 +36,11 @@ function App() {
   return (
     <>
     <h1 className="text-4xl text-center justify-center items-center w-full mt-5 mb-8">!Stand With Israel</h1>
-      <div className="flex flex-col w-[800px] items-center justify-center m-auto">
+      <div className="flex flex-col w-[80vw] items-center justify-center m-auto">
         <div className="flex justify-center items-center self-center">
           <div className="relative" ref={imageRef}>
             <img
-              className="w-full h-[500px] rounded-xl"
+              className="w-full rounded-xl h-auto lg:h-[50vh]"
               src={imgSrc}
             />
             <img className="absolute left-0 bottom-0" src={frame} />
