@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-    <h1 className="text-4xl text-center justify-center items-center w-full mt-5 mb-8">!Stand With Israel</h1>
+    <h1 className="text-4xl text-center justify-center items-center w-full pt-5 pb-8">!Stand With Israel</h1>
       <div className="flex flex-col w-[80vw] items-center justify-center m-auto">
         <div className="flex justify-center items-center self-center">
           <div className="relative" ref={imageRef}>
@@ -46,7 +46,7 @@ function App() {
             <img className="absolute left-0 bottom-0" src={frame} />
           </div>
         </div>
-        <div className="flex flex-col gap-4 m-5">
+        <div className="flex flex-col gap-4 p-5">
           <div>
           <label htmlFor="file-upload" className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-2xl">העלה תמונה</label>
           <input onChange={handleInput} id="file-upload" type="file" accept="image/png,image/jpeg,image/jpg" className="hidden" />
